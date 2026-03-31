@@ -60,6 +60,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   scripts/filter-tf-msgs.py
   scripts/check-sync-topics.py
+  scripts/bool_publisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
